@@ -198,7 +198,7 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {/* h4*/
 		color: #000000;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
@@ -224,7 +224,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.25rem; /* ----------------------------------------------------------- */
+		font-size: 1rem; /* ----------------------------------------------------------- */
 		font-weight: 800;
 		margin: 0 0 2rem 0;
 	}
@@ -234,7 +234,15 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.875rem;
+		font-size: 2rem; /*  0.875rem */
+		/* rajouté */
+		color: #ffffff;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-weight: 600;
+		letter-spacing: 0.175em;
+		line-height: 1.75;
+		margin: 0 0 1.5rem 0;
+		text-transform: uppercase;
 	}
 
 	h5 {
