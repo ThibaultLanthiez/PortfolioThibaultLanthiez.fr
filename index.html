@@ -79,7 +79,9 @@
 					</header>
 					<div class="content">
 						<p>
-							<strong>Projet de régression</strong> sur le prix de vente de biens immobiliers. <br> <strong>Performance</strong> : 8 % d'erreur</p>
+							<strong>Projet de régression</strong> sur le prix de vente de biens immobiliers. <br>
+							L'objectif est d'estimer le prix de vente d'un bien immobilier en fonction de ses caractéristiques.<br>
+							<strong>Performance</strong> : 8 % d'erreur par rapport au prix de vente</p>
 						<ul class="feature-icons">
 							<li class="icon solid fa-brain">Machine Learning</li>
 							<li class="icon solid fa-calculator">Régression</li>
@@ -224,16 +226,19 @@
 					</header>
 					<div class="content">
 						<p>
-							<strong>Série temporelle multivariée</strong> pour prédire le nombre de décès dus au Covid-19 en France. <br>
-							L'objectif est de prédire le nombre de décès quotidien dans les 100 prochains jours en fonction de données des 50 jours prédédents.<br>
-							L'entraînement s'est fait sur les données de nombreux pays sur une période précédent une date fixe (mi-avril).<br>
-							Le test a ensuite été effectué sur les données de la France de mi-avril jusqu'à la fin des données disponibles.<br>
+							<strong>Série temporelle multivariée</strong> pour prédire le nombre de décès quotidiens dus au Covid-19. <br>
+							L'objectif est de <strong>prédire le nombre de décès quotidiens du mois suivant en fonction des données du mois actuel</strong> (nombre de nouveaux cas quotidiens, nombre de décès quotidiens et nombre de décès cumulés).<br>
+							Le modèle a été entraîné pour faire 30 jours de prédiction en fonction des données multivariées de 30 jours d'historique.<br>
 							<strong>Langage</strong> : Python <br>
 							<strong>Algorithme</strong> : Réseau de neurones récurrents (RNN) avec Keras<br>						
 						<ul class="feature-icons">
 							<li class="icon solid fa-brain">Machine Learning</li>
 							<li class="icon solid fa-chart-line">Série temporelle</li>
 						</ul>
+						Dans le graphique ci-dessous,<br>
+						L'entraînement et la validation se sont fait sur les données de nombreux pays jusqu'au 19 avril 2020.<br>
+						Le test a ensuite été effectué sur chaque pays (ici le Royaume-Uni) en donnant l'historique entre le 21 mars et le 19 avril 2020 (30 jours) et en comparant les prédictions et la réalité pour les 30 jours suivants (entre le 20 avril et le 19 juin 2020).<br>
+						On remarque que le modèle arrive bien à <strong>prédire la chute du nombre de décès quotidiens bien que ces derniers étaient en forte augmentation.</strong>
 						<span class="image main"><img src="images/pic04.png" alt="" /></span>
 						<!--
 						<ul class="actions">
