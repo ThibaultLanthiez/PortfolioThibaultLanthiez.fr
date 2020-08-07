@@ -2220,13 +2220,15 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		padding-bottom: 8em;
+		padding-bottom: 25em; /* 8em; */
 		text-align: center;
 	}
 
 		#intro p.style1 {
-			font-size: 1.5em;
+			font-size: 2.5em; /* 1.5em; */
 			letter-spacing: 0.075em;
+			padding-bottom: 1.5em; /* rajouté */
+			padding-top: 1.25em; /* rajouté */
 		}
 
 		#intro p.style2 {
